@@ -1,0 +1,25 @@
+header, footer{
+text-align: center;
+background-color: #680909;
+color: white
+}
+
+img{
+    max-width: 101px;
+    
+}
+
+body{
+    text-align: center;
+    max-width: 1001px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #1d127e;
+    font-family: Arial, Helvetica;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+li {
+    text-align: left;
+}

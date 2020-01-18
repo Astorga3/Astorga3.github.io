@@ -1,0 +1,30 @@
+main{
+    display: grid;    
+}
+
+header, footer{
+    text-align: center;
+    background-color: #000000;
+    color: white
+    }
+    
+    body{
+        text-align: center;
+        max-width: 1001px;
+        font-size: 15px;
+        line-height: 30px;
+        color: #000000;
+        font-family: Arial, Helvetica;
+        margin: 0 auto;
+        box-sizing: border-box;
+        
+    }
+    img{
+        max-width: 250px;
+        width: 100%;
+        
+        
+    }
+    li {
+        text-align: left;
+    }
