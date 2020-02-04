@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assigment 1</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <img id="logoimg" src="images/logo.jpg" alt="logo">
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">&#9776;</a>
+                </li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="preston-4.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="#">Storm Center</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="PrestonIdaho">Preston Idaho</h2>
+        
+        <div class="content">
+
+            <img id="heroimg" src="images/hero.jpg" alt="hero">
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="current-temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="wind-speed"></span>
+                </div>
+                <div>
+                    <span> Humidity: </span>
+                    <span id="humidity"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th id="day1">Day 1</th>
+                    <th id="day2">Day 2</th>
+                    <th id="day3">Day 3</th>
+                    <th id="day4">Day 4</th>
+                    <th id="day5">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td id="temp1">51&deg;</td>
+                    <td id="temp2">52&deg;</td>
+                    <td id="temp3">53&deg;</td>
+                    <td id="temp4">54&deg;</td>
+                    <td id="temp5">55&deg;</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <div class="content"> Article </div>
+        <div class="content"> Contact Information </div>
+    </main>
+    <footer>
+        <p>&copy; Rocket Weather | <span id="current-date"></span></p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

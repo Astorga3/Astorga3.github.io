@@ -1,0 +1,89 @@
+html{
+    color: #000000;    
+}
+        
+
+header, footer{
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    }
+h1{
+    
+    max-width: 1000px;
+    width: 100%;       
+    }
+
+.flex {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+      }
+nav a{
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+body{
+    background-color: #000000;
+    text-align: center;
+    max-width: 1500px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff;
+        
+    margin: 0 auto;
+    box-sizing: border-box;    
+    }
+nav a:hover{
+    background-color: grey;
+}
+#logoimg{
+    max-width: 100px;
+    width: 10%;    
+    }
+li {
+    text-align: center;
+    }
+.flexnavigation li{
+    display: none;
+}
+.flexnavigation li:first-child{
+    display: block;
+}
+.responsive li{
+    display: block;
+}
+#PrestonIdaho{
+    color: red;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+.content{
+    
+    margin: 2% 0;
+    padding: 2%;
+    border: 2px solid grey;
+    font-family: 'Press Start 2P', cursive ;
+    text-align: left;
+}
+#weather-summary{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    padding: 10px;
+}
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}
