@@ -25,5 +25,5 @@ fullDate += ' ' + year;
 document.querySelector('#current-date').textContent = fullDate;
 
 function hamMenu(){
-  document.getElementsByClassName("navigation")[0].classList.toggle("responsive");  
+  document.getElementById("flexnavigation").classList.toggle("responsive");  
 }

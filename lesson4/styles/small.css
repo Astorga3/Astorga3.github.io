@@ -53,14 +53,14 @@ nav a:hover{
 li {
     text-align: center;
     }
-nav li{
+#flexnavigation li{
     display: none;
 }
-nav li:first-child{
+#flexnavigation li:first-child{
     display: block;
 }
 .responsive li{
-    display: block;
+    display: block !important;
 }
 #PrestonIdaho{
     color: red;
