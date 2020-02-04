@@ -1,11 +1,7 @@
 html{
     color: #000000;    
 }
-
-main{
-    display: grid;
         
-}
 
 header, footer{
     text-align: center;
@@ -19,12 +15,6 @@ h1{
     max-width: 1000px;
     width: 100%;       
     }
-h2{
-    
-    font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
-    margin: 100px;
-}
 
 .flex {
     text-align: center;
@@ -58,8 +48,32 @@ nav a:hover{
 }
 #logoimg{
     max-width: 100px;
-    width: 8%;    
+    width: 10%;    
     }
 li {
     text-align: center;
     }
+nav li{
+    display: none;
+}
+nav li:first-child{
+    display: block;
+}
+.responsive li{
+    display: block;
+}
+#PrestonIdaho{
+    color: red;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+}
+.content{
+    
+    margin: 2% 0;
+    padding: 2%;
+    border: 2px solid grey;
+    font-size: ;
+    font-family: 'Press Start 2P', cursive ;
+    text-align: left;
+}
