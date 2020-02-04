@@ -35,3 +35,6 @@
         grid-template-columns: 1fr 1fr;
     }
     }
+    nav li:first-child{
+        display: none;
+    }
