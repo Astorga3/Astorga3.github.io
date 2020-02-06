@@ -53,14 +53,14 @@ nav a:hover{
 li {
     text-align: center;
     }
-#flexnavigation li{
+.flexnavigation li{
     display: none;
 }
-#flexnavigation li:first-child{
+.flexnavigation li:first-child{
     display: block;
 }
 .responsive li{
-    display: block !important;
+    display: block;
 }
 #PrestonIdaho{
     color: red;
@@ -75,4 +75,15 @@ li {
     border: 2px solid grey;
     font-family: 'Press Start 2P', cursive ;
     text-align: left;
+}
+#weather-summary{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    padding: 10px;
+}
+table, tr, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
 }

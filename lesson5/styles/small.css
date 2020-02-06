@@ -87,3 +87,18 @@ table, tr, th, td{
     border-collapse: collapse;
     padding: 10px;
 }
+#Pweather{
+    max-width: 400px;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+#five-day-forcast{
+    display: none;
+}
+
+iframe{
+    display: none;
+}
+aside{
+    padding: 10%;
+}

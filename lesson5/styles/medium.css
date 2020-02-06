@@ -47,4 +47,10 @@
     .flexnavigation li{
         display: inline-block;
     }
+    #five-day-forcast{
+        display: block;
+    }
+    iframe{
+        display: block;
+    }
 }
