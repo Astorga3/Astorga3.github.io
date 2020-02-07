@@ -33,10 +33,9 @@ document.querySelector('#humidity').innerHTML = '10&percnt;';
 
 /*pancake*/
 
-const currentDate = new Date();
 const aside =  document.querySelector('aside');
 
-if(currentDate.getDay() === 5){
+if(currentDate.getDay() === 4){
     aside.style.display = 'block';
 } else {
   aside.style.display = 'none';
