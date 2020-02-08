@@ -24,10 +24,6 @@
 
     }
     
-    nav a:hover{
-        background-color: grey;
-        
-    }
     nav li{
         flex: 1 1 100%;
         

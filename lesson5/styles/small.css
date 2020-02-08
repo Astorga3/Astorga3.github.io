@@ -44,7 +44,7 @@ body{
     box-sizing: border-box;    
     }
 nav a:hover{
-    background-color: grey;
+    background-color: red;
 }
 #logoimg{
     max-width: 100px;
@@ -106,4 +106,7 @@ aside{
 .hero{
     background-image: url(/lesson5/images/hero.jpg);
     background-size: cover;
+}
+.active{
+    background-color: grey;
 }
