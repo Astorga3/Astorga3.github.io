@@ -77,13 +77,33 @@ li {
     text-align: left;
 }
 #weather-summary{
-    position: absolute;
-    top: 200px;
-    left: 25px;
+    /* position: relative;
+    bottom: 200px;
+    left: 25px; */
     padding: 10px;
 }
 table, tr, th, td{
     border: 1px solid white;
     border-collapse: collapse;
     padding: 10px;
+}
+#Pweather{
+    max-width: 400px;
+    float: right;
+    margin: 0 0 1em 1em;
+}
+#five-day-forcast{
+    display: none;
+}
+
+iframe{
+    display: none;
+}
+aside{
+    padding: 10%;
+}
+
+.hero{
+    background-image: url(/lesson5/images/hero.jpg);
+    background-size: cover;
 }
