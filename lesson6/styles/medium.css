@@ -31,8 +31,9 @@
     main{
         grid-template-columns: 1fr 1fr;
     }
-    .flexnavigation ul{
-        display: flex;
+   
+    .flexnavigation{
+
         flex-direction: row;
     }
 
@@ -49,7 +50,7 @@
     iframe{
         display: block;
     }
-    .hero{
-        background-image: url(/lesson6/images/hero-img-medium.jpg);
-        background-size: cover;
+    #weather-summary{
+        font-size: 0.8rem;
+    }
 }

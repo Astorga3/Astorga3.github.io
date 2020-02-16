@@ -23,12 +23,12 @@
             <ul class="flexnavigation">
                 <li>
                     <a href="#" onclick="hamMenu()">
-                    <img id="logoimg" src="images/logo.jpg" alt=""> 
+                    <img class="logoimg" src="images/logo.jpg" alt=""> 
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                      <img id="logoimg" src="images/logo.jpg" alt="">Menu
+                      <img class="logoimg" src="images/logo.jpg" alt="">Menu
                     </a>
                 </li>
                 <li>
@@ -54,9 +54,13 @@
         <h2 id="PrestonIdaho">Preston Idaho</h2>
         
         <div class="content hero">
-
-            <!-- <img id="heroimg" src="images/hero.jpg" alt="hero"> -->
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/hero-img-small.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/hero-img-medium.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/hero-img-large.jpg"> 
+            <img id="heroimg" src="images/hero-img-small.jpg" alt="hero">
             
+            </picture>
             <article id="weather-summary">
                 <h1>Weather Summary</h1>
                 <div>

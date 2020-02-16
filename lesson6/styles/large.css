@@ -2,7 +2,5 @@
     main{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .hero{
-        background-image: url(/lesson6/images/hero-img-large.jpg);
-        background-size: cover;    
-    }
+    
+}
