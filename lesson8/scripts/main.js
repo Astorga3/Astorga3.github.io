@@ -69,3 +69,18 @@ WebFont.load({
     ]
   }
 });
+
+/*Adjust Rating*/
+function adjustRating(rating) {
+  document.querySelector('#rating').textContent = rating;
+}
+
+let y = true
+
+function disable(){
+  let x = document.getElementById("defaultStorm");
+if (y == true){
+  x.setAttribute("disabled", "");
+  y = false;
+}
+}

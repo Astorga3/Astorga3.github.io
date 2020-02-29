@@ -46,9 +46,9 @@ body{
 nav a:hover{
     background-color: red;
 }
-.logoimg{
-    max-width: 70px; 
-    
+.logoimg{ 
+    max-width: 100px;
+    display: none;
     }
 li {
     text-align: center;
@@ -144,4 +144,29 @@ aside{
     background-color: grey;
     margin: 100px;
 
+}
+
+#rating{
+    color: white;
+}
+
+main{
+    text-align: left;
+}
+
+#form-container{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+label{
+    width: 200px;
+    display: inline-block;
+}
+/*Storm Center*Storm Center*/
+
+#thanksDiv{
+    text-align: center;
+    font-size: 25px;
 }
