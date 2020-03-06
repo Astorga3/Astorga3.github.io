@@ -2,6 +2,8 @@ article{
     background-color: lightblue;
     margin: 5px;
     padding: 10px;
+    max-width: 300px;
+    text-align: center;
 }
 
 img {
@@ -14,13 +16,13 @@ img {
 }
 
 @media only screen and (min-width: 32.5em){
-    section{
+    .cards{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media only screen and (min-width: 60em){
-    section{
+    .cards{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

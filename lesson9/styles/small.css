@@ -170,3 +170,12 @@ label{
     text-align: center;
     font-size: 25px;
 }
+/*Storm Center*home page*/
+#cities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
