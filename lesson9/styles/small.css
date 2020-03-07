@@ -50,6 +50,9 @@ nav a:hover{
     max-width: 100px;
     display: none;
     }
+.logobutton{
+    max-width: 100px;
+}
 li {
     text-align: center;
     }
@@ -170,12 +173,25 @@ label{
     text-align: center;
     font-size: 25px;
 }
-/*Storm Center*home page*/
+/*home page*home page*/
 #cities{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    align-content: stretch;
+}
+#cities article{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
     
-
+    min-width: 10px;
+    text-align: center;
+}
+#sodaSpringsImage, #prestonImage, #fishHavenImage {
+    
+    width: 100%;
 }

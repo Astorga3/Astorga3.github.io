@@ -61,4 +61,9 @@
         padding-left: 700px;
         display: block;
         }
+        #cities{
+        grid-template-columns: 1fr 1fr;
+
+    }
 }
+
