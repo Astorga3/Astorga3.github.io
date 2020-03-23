@@ -52,7 +52,7 @@
     </header>
 
     <main>
-        <h2 id="PrestonIdaho">Preston Idaho</h2>
+        <h2 id="PrestonIdaho"><span id="page">Preston</span> Idaho</h2>
         
         <div class="content hero">
             <picture>
@@ -66,11 +66,11 @@
                 <h1>Weather Summary</h1>
                 <div>
                     <span> Current Temperature: </span>
-                    <span id="current-temp"></span>
+                    <span id="temp"></span>
                 </div>
                 <div>
                     <span> Wind Speed: </span>
-                    <span id="wind-speed"></span>
+                    <span id="speed"></span>
                 </div>
                 <div>
                     <span> WindChill: </span>
@@ -85,21 +85,21 @@
             <table>
                 <thead>
                     <tr>
-                    <th id="day1">Day 1</th>
-                    <th id="day2">Day 2</th>
-                    <th id="day3">Day 3</th>
-                    <th id="day4">Day 4</th>
-                    <th id="day5">Day 5</th>
+                    <th class="forecastHead">Day 1</th>
+                    <th class="forecastHead">Day 2</th>
+                    <th class="forecastHead">Day 3</th>
+                    <th class="forecastHead">Day 4</th>
+                    <th class="forecastHead">Day 5</th>
                     </tr>
                 </thead>
                 <tbody>
                     
                     <tr>    
-                    <td id="temp1">51&deg;</td>
-                    <td id="temp2">52&deg;</td>
-                    <td id="temp3">53&deg;</td>
-                    <td id="temp4">54&deg;</td>
-                    <td id="temp5">55&deg;</td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
                     </tr>
 
                 </tbody>
@@ -115,6 +115,10 @@
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eum. Sapiente animi quis ipsa eos, dolore magnam fuga vero corrupti natus, accusantium optio laboriosam libero repudiandae aut nesciunt quod minus.  
                 </p>
             </article>
+        </section>
+
+        <section>
+            <div class="content local-events"></div>
         </section>
         
         <section class="content"> 
@@ -134,6 +138,8 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/cityspecific.js"></script>
+    <script src="scripts/towninfo.js"></script>
     </body>
 
 </html>

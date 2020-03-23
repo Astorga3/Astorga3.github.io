@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assigment 1</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    
+</head>
+
+<body>
+
+    <header>
+        
+              <img class="logoimg" src="images/logo.jpg" alt="">
+            
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">
+                    <img class="logobutton" src="images/logo.jpg" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a class = "active" href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="preston-10.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="stormcenter.html">Storm Center</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cities">
+            <article>
+                <h1 id="fishHavenName"></h1>
+                <h2 id="fishHavenMotto"></h2>
+                <p id="fishHavenYearFounded"></p>
+                <p id="fishHavenPopulation"></p>
+                <p id="fishHavenAnnualRainfall"></p>
+                <p>
+                    <img src="" alt="" id="fishHavenImage">
+                </p>
+            </article>
+
+            <article>
+                <h1 id="prestonName"></h1>
+                <h2 id="prestonMotto"></h2>
+                <p id="prestonYearFounded"></p>
+                <p id="prestonPopulation"></p>
+                <p id="prestonAnnualRainfall"></p>
+                <p>
+                    <img src="" alt="" id="prestonImage">
+                </p>
+            </article>
+
+            <article>
+                <h1 id="sodaSpringsName"></h1>
+                <h2 id="sodaSpringsMotto"></h2>
+                <p id="sodaSpringsYearFounded"></p>
+                <p id="sodaSpringsPopulation"></p>
+                <p id="sodaSpringsAnnualRainfall"></p>
+                <p>
+                    <img src="" alt="" id="sodaSpringsImage">
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Rocket Weather | <span id="current-date"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/town.js"></script>
+
+    </body>
+
+</html>

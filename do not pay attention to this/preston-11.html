@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assigment 1</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <aside>
+        <p>Saturday = Preston Pancakes in the Park! 9:00 am</p>
+    </aside>
+    <header>
+        
+              <img class="logoimg" src="images/logo.jpg" alt="">
+            
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">
+                    <img class="logobutton" src="images/logo.jpg" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a class = "active" href="preston-11.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="stormcenter.html">Storm Center</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="PrestonIdaho">Preston Idaho</h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/hero-img-small.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/hero-img-medium.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/hero-img-large.jpg"> 
+            <img id="heroimg" src="images/hero-img-small.jpg" alt="hero">
+            
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="current-temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="wind-speed"></span>
+                </div>
+                <div>
+                    <span> WindChill: </span>
+                    <span id="wind-chill"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th id="day1">Day 1</th>
+                    <th id="day2">Day 2</th>
+                    <th id="day3">Day 3</th>
+                    <th id="day4">Day 4</th>
+                    <th id="day5">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td id="temp1">51&deg;</td>
+                    <td id="temp2">52&deg;</td>
+                    <td id="temp3">53&deg;</td>
+                    <td id="temp4">54&deg;</td>
+                    <td id="temp5">55&deg;</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <section class="content">
+            <article>
+                <img id="Pweather" src="images/Pweather.jpg" alt="weather">
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores modi odit, at nemo impedit quia perferendis magni cum, optio laboriosam est cumque deleniti, rem quam consequuntur animi consectetur repudiandae nulla.
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eum. Sapiente animi quis ipsa eos, dolore magnam fuga vero corrupti natus, accusantium optio laboriosam libero repudiandae aut nesciunt quod minus.  
+                </p>
+            </article>
+        </section>
+        
+        <section class="content"> 
+            <address>
+                <h1>MW</h1>
+                123 This Street</br>
+                Rexburg</br>
+                ID</br>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11516.03292540801!2d-111.791815408277!3d43.8141886674915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010435474!5m2!1sen!2sus" width="40%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>          
+        </section>
+        
+
+    </main>
+    <footer>
+        <p>&copy; Rocket Weather | <span id="current-date"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/cityspecific.js"></script>
+    </body>
+
+</html>
