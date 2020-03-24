@@ -27,3 +27,14 @@ document.querySelector('#current-date').textContent = fullDate;
 function hamMenu(){
   document.querySelector(".flexnavigation").classList.toggle("responsive");  
 }
+
+//Font//
+
+        WebFont.load({
+            google:{
+                families:[
+                'Press Start 2P', 'cursive'
+                ]
+            }
+        });
+
