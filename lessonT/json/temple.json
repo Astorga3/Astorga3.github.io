@@ -1,0 +1,41 @@
+templesList:[
+    {name: "Boston Massachusetts Temple", location: "Boston, Massachusetts"
+    }
+]
+A: {name: "Boston Massachusetts Temple", location: "Boston, Massachusetts"
+}
+name: "Boston Massachusetts Temple"
+location: "Boston, Massachusetts"
+address: "100 Hinckley Way, Belmont, MA 02478"
+phone: "(123)456-7891"
+history: "announced: 1 October 2011, groundbreaking: 20 February 2016, dedicated: 9 December 2018"
+schedule: "Currently Closed"
+
+B:  {name: "Boston Massachusetts Temple", location: "Boston, Massachusetts"
+}
+name: "Boston Massachusetts Temple"
+location: "Boston, Massachusetts"
+address: "100 Hinckley Way, Belmont, MA 02478"
+phone: "(123)456-7891"
+history: "announced: 1 October 2011, groundbreaking: 20 February 2016, dedicated: 9 December 2018"
+schedule: "Currently Closed"
+
+C: {name: "Boston Massachusetts Temple", location: "Boston, Massachusetts"
+}
+name: "Boston Massachusetts Temple"
+location: "Boston, Massachusetts"
+address: "100 Hinckley Way, Belmont, MA 02478"
+phone: "(123)456-7891"
+history: "announced: 1 October 2011, groundbreaking: 20 February 2016, dedicated: 9 December 2018"
+schedule: "Currently Closed"
+
+D: {name: "Boston Massachusetts Temple", location: "Boston, Massachusetts"
+}
+name: "Boston Massachusetts Temple"
+location: "Boston, Massachusetts"
+address: "100 Hinckley Way, Belmont, MA 02478"
+phone: "(123)456-7891"
+history: "announced: 1 October 2011, groundbreaking: 20 February 2016, dedicated: 9 December 2018"
+schedule: "Currently Closed"
+}
+]

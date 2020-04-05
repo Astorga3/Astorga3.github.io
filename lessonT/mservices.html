@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        
+              <img class="logoimg" src="images/logo.jpg" alt="">
+            
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">
+                    <img class="logobutton" src="images/logo.jpg" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="temples12.html">Temples</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="reservations.html">Reservations</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="PrestonIdaho"><span id="page">Full-Time Temple Missionary</span></h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/SMS.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/SMM.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/SML.jpg"> 
+            <img id="heroimg" src="images/SMS.jpg" alt="hero">
+        
+        
+            <section id="cities">
+                <address>
+                    <h1>Contact Us:</h1>
+                    4800 Montgomery Ln #300</br>
+                    Bethesda</br>
+                    MD 20814</br>
+                    (123)456-7890</br>
+                </address>
+                        
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="emial" id="email" name="email" placeholder="example@domain.com">
+                
+                    <label for="additionalInfo">Explain us what is you situacion: </label>
+                    <input type="text" id="additionalInfo" name="additionalInfo">
+                </div>
+            </section>
+        
+
+    </main>
+    <footer>
+        <p>&copy; Visit Temples (123)456-7890| <span id="current-date"></span></p>
+    </footer>
+    
+    <script src="scripts/main.js"></script>
+    <script src="scripts/cityspecific.js"></script>
+    <script src="scripts/towninfo.js"></script>
+    </body>
+
+</html>

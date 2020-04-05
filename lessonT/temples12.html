@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temples</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <aside>
+        <p>Saturday = Preston Pancakes in the Park! 9:00 am</p>
+    </aside>
+    <header>
+        
+              <img class="logoimg" src="images/logo.jpg" alt="">
+            
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">
+                    <img class="logobutton" src="images/logo.jpg" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a class = "active" href="temples12.html">Temples</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="reservations.html">Reservations</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <main>
+        <h2 id="PrestonIdaho"><span id="page">Boston Temple</span></h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/hero-img-small.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/hero-img-medium.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/hero-img-large.jpg"> 
+            <img id="heroimg" src="images/hero-img-small.jpg" alt="hero">
+            
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="speed"></span>
+                </div>
+                <div>
+                    <span> WindChill: </span>
+                    <span id="wind-chill"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th class="forecastHead">Day 1</th>
+                    <th class="forecastHead">Day 2</th>
+                    <th class="forecastHead">Day 3</th>
+                    <th class="forecastHead">Day 4</th>
+                    <th class="forecastHead">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <section class="content">
+            <article>
+                <img id="Pweather" src="images/Boston-Temple.jpg" alt="weather">
+                <p>
+                    Richard G. Scott, of the Quorum of the Twelve Apostles, presided over the groundbreaking on June 13, 1997, and the building was completed three years later. About 82,600 visitors toured the temple during an open-house prior to its dedication. A local radio station and newspaper working together produced the first on-line tours of a temple.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <div class="content local-events"></div>
+        </section>
+        
+        <section class="content"> 
+            <address>
+                <h1>Temple Information</h1>
+                100 Hinckley Way</br>
+                Belmont</br>
+                MA 02478</br>
+                (617) 993-9993</br>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11782.962633294566!2d-71.188142!3d42.4119672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x697421bac5245feb!2sBoston%20Massachusetts%20Temple!5e0!3m2!1sen!2sus!4v1586056708974!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+
+
+
+
+        <h2 id="PrestonIdaho"><span id="page">Sacramento Temple</span></h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/sanjoseheroS.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/sanjoseheroM.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/sanjoseheroL.jpg"> 
+            <img id="heroimg" src="images/sanjoseheroS.jpg" alt="hero">
+            
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="speed"></span>
+                </div>
+                <div>
+                    <span> WindChill: </span>
+                    <span id="wind-chill"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th class="forecastHead">Day 1</th>
+                    <th class="forecastHead">Day 2</th>
+                    <th class="forecastHead">Day 3</th>
+                    <th class="forecastHead">Day 4</th>
+                    <th class="forecastHead">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <section class="content">
+            <article>
+                <img id="Pweather" src="images/sacramento_temple.jpg" alt="weather">
+                <p>
+                    The Sacramento California Temple is the 123rd operating temple of The Church of Jesus Christ of Latter-day Saints. The temple was the seventh built by the church in California, more than any state except Utah.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <div class="content local-events"></div>
+        </section>
+        
+        <section class="content"> 
+            <address>
+                <h1>Temple Information</h1>
+                2110 California Cir</br>
+                Rancho Cordova</br>
+                CA 95742</br>
+                (916) 357-5870</br>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12466.396565676989!2d-121.193949!3d38.6351019!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90b3926111c15d48!2sSacramento%20California%20Temple!5e0!3m2!1sen!2sus!4v1586056808071!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+
+
+
+
+        <h2 id="PrestonIdaho"><span id="page">Houston Temple</span></h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/houstonS.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/houstonM.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/houstonL.jpg"> 
+            <img id="heroimg" src="images/houstonS.jpg" alt="hero">
+            
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="speed"></span>
+                </div>
+                <div>
+                    <span> WindChill: </span>
+                    <span id="wind-chill"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th class="forecastHead">Day 1</th>
+                    <th class="forecastHead">Day 2</th>
+                    <th class="forecastHead">Day 3</th>
+                    <th class="forecastHead">Day 4</th>
+                    <th class="forecastHead">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <section class="content">
+            <article>
+                <img id="Pweather" src="images/houston-temple.jpg" alt="weather">
+                <p>
+                    After the September 1997 announcement that the LDS Church would build a temple in Houston, the search began for an appropriate site. The site chosen formerly belonged to a developer unwilling to sell. Years earlier, however, the developer had gone through difficult financial times and had made a promise to God that if God would help him avoid financial ruin, he would someday "pay God back".  
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <div class="content local-events"></div>
+        </section>
+        
+        <section class="content"> 
+            <address>
+                <h1>Temple Information</h1>
+                1802 Gunwale Rd</br>
+                Houston</br>
+                TX 77062</br>
+                (281) 486-4771</br>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13879.97227099533!2d-95.1186973!3d29.574805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x52817bb528119e5c!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sus!4v1586056926863!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        
+
+
+
+        <h2 id="PrestonIdaho"><span id="page">Las Vegas Temple</span></h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/vegasS.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/vegasM.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/vegasL.jpg"> 
+            <img id="heroimg" src="images/vegasS.jpg" alt="hero">
+            
+            </picture>
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span> Current Temperature: </span>
+                    <span id="temp"></span>
+                </div>
+                <div>
+                    <span> Wind Speed: </span>
+                    <span id="speed"></span>
+                </div>
+                <div>
+                    <span> WindChill: </span>
+                    <span id="wind-chill"></span>
+                </div>
+
+            </article>
+        </div>
+
+        <div id="five-day-forcast">
+            
+            <table>
+                <thead>
+                    <tr>
+                    <th class="forecastHead">Day 1</th>
+                    <th class="forecastHead">Day 2</th>
+                    <th class="forecastHead">Day 3</th>
+                    <th class="forecastHead">Day 4</th>
+                    <th class="forecastHead">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>    
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    <td class="tablerow"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+
+        <section class="content">
+            <article>
+                <img id="Pweather" src="images/Las-Vegas-Temple.jpg" alt="weather">
+                <p>
+                    Located in the Sunrise Manor CDP near Las Vegas, Nevada, the temple sits on 10.3 acres (4.2 ha) of land at the base of Frenchman Mountain.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <div class="content local-events"></div>
+        </section>
+        
+        <section class="content"> 
+            <address>
+                <h1>Temple Information</h1>
+                827 Temple View Dr</br>
+                Las Vegas</br>
+                NV 89110</br>
+                (702) 452-5011</br>
+            </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12882.672908206232!2d-115.0199968!3d36.1746273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x21f43e3941f7e1b8!2sLas%20Vegas%20Nevada%20Temple!5e0!3m2!1sen!2sus!4v1586056624307!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; Visit Temples | <span id="current-date"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/cityspecific.js"></script>
+    <script src="scripts/towninfo.js"></script>
+    </body>
+
+</html>

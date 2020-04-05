@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services</title>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+
+    <header>
+        
+              <img class="logoimg" src="images/logo.jpg" alt="">
+            
+        <nav>
+            <ul class="flexnavigation">
+                <li>
+                    <a href="#" onclick="hamMenu()">
+                    <img class="logobutton" src="images/logo.jpg" alt=""> 
+                    </a>
+                </li>
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="temples12.html">Temples</a>
+                </li>
+                <li>
+                    <a class = "active" href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="reservations.html">Reservations</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="PrestonIdaho"><span id="page">Services</span> Idaho</h2>
+        
+        <div class="content hero">
+            <picture>
+            <source media="(max-width: 751px)" srcset="images/amenitiesS.jpg">
+            <source media="(min-width: 752px) and (max-width: 1023px)" srcset="images/amenitiesM.jpg">   
+            <source media="(min-width: 1024px)" srcset="images/amenitiesL.jpg"> 
+            <img id="heroimg" src="images/amenitiesS.jpg" alt="hero">
+        
+        </div>
+         <div class="content hero">   
+            <section>
+                <h1>Receptions</h1>
+                <img class="servicesimg" src="images/receptionS.jpg">
+                <p>
+                Based on the area that you are visitig we can provide Catering services. we have a host of highly skilled professionals available to help you plan and execute your wedding reception. Let us take care of the details so you can focus on celebrating!
+                </p> 
+                <a href="rservices.html">More...</a>   
+            </section>
+        </div>
+        <div class="content hero">
+            <section>
+                <h1>Full-Time Temple Missionary</h1>
+                <img class="servicesimg" src="images/SMS.jpg">
+                <p>
+                 For those couples that are trying to figure housing and other logistics to serve as a full-time temple missionary, we are more than happy to offer our help, we will need to know your specific situation so contact us.   
+                </p>
+                <a href="mservices.html">More...</a>    
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Visit Temples | <span id="current-date"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/cityspecific.js"></script>
+    <script src="scripts/towninfo.js"></script>
+    </body>
+
+</html>
